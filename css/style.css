@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(217deg, 54%, 11%);
+  font-family: "Outfit";
+  font-size: 18px;
+  height: calc(100vh - 0.1px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .container {
+  text-align: left;
+  background-color: hsl(216deg, 50%, 16%);
+  border-radius: 15px;
+  padding: 1.375rem;
+  margin: 2rem 1.875rem;
+  box-shadow: 15px 15px 60px rgba(0, 0, 0, 0.3);
+  max-width: 19rem;
+}
+
+.overlay-container:hover .overlay {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.overlay-container:hover .view {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.overlay-container {
+  width: 100%;
+  max-width: 20rem;
+  position: relative;
+}
+.overlay-container img#equilibrium {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 0.9375rem;
+  display: block;
+}
+.overlay-container .overlay {
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: hsl(178deg, 100%, 50%);
+}
+.overlay-container img.view {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease;
+  opacity: 0;
+}
+
+h3 {
+  color: hsl(0deg, 0%, 100%);
+  padding: 0.625rem 0;
+}
+
+h3:hover {
+  color: hsl(178deg, 100%, 50%);
+  cursor: pointer;
+}
+
+article {
+  padding: 0.625rem 0;
+  color: hsl(215deg, 51%, 70%);
+  font-weight: 300;
+}
+
+.content {
+  padding: 0.625rem 0;
+  margin-bottom: 0.625rem;
+  display: flex;
+  justify-content: space-between;
+  color: hsl(215deg, 51%, 70%);
+}
+.content .price img {
+  padding: 5px;
+  vertical-align: middle;
+}
+.content .price p {
+  display: inline-block;
+  color: hsl(178deg, 100%, 50%);
+  font-size: 16px;
+  padding: 5px 0;
+  vertical-align: middle;
+}
+.content .days-left img {
+  padding: 5px 0;
+  vertical-align: middle;
+}
+.content .days-left p {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+hr {
+  border: none;
+  height: 1.2px;
+  margin-bottom: 10px;
+  background: hsl(215deg, 32%, 27%);
+}
+
+footer {
+  display: flex;
+  color: hsl(215deg, 51%, 70%);
+  font-weight: 300;
+  font-size: 16px;
+}
+footer img {
+  width: 33px;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 10px;
+}
+footer p {
+  align-self: center;
+}
+footer p:last-child {
+  color: hsl(0deg, 0%, 100%);
+  margin-left: 3px;
+}
+footer p:last-child:hover {
+  color: hsl(178deg, 100%, 50%);
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
