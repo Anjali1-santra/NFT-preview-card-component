@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Anjali1-santra/NFT-preview-card-component)
-- Live Site URL: [Add live site URL here](https://anjali-nft-preview-card-component.netlify.app)
+- Solution URL:(https://github.com/Anjali1-santra/NFT-preview-card-component)
+- Live Site URL:(https://anjali-nft-preview-card-component.netlify.app)
 
 ### Built with
 
